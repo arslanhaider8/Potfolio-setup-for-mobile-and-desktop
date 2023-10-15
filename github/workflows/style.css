@@ -1,0 +1,87 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  navbar li:nth-last-child(2) {
+    float: right;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  
+  }
+  
+  
+  
+  .container {
+    width: 400px;
+    text-align: left;
+    padding: 20px 140px;
+    background-color: #fff;
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  
+  .Descripton {
+    padding: 0px 140px;
+  }
+  
+  
+  
+  
+  
+  @media screen and (min-width: 375px) {
+  
+    nav ul {
+      justify-content: space-around;
+    }
+  
+    nav ul li {
+      margin-right: 0;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+  
+    header {
+      padding: 20px 0;
+    }
+  
+    nav ul {
+      justify-content: flex-start;
+    }
+  
+    nav ul li {
+      margin-right: 20px;
+    }
+  
+    .discription {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+  
+  }
+  
+
+  
+  
+  .portfolio {
+  
+    background-image: url('WhatsApp Image 2023-10-07 at 7.01.44 PM.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+  }
+  
