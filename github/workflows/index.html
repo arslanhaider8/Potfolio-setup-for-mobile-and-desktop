@@ -1,56 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-   
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
 
-<body>
-    <header>
-        <div class="navbar">
-            <nav>
-                <ul class="navbar-elements">
-                    <li><a href="#logo">My Logo</a></li>
-                    <div>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js" defer></script>
+  </head>
 
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </div>
-                </ul>
-            </nav>
+  <body>
+    <nav class="navbar">
+      <a href="#logo" class="logo">My Logo</a>
+      <ul class="navbar-elements">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="container" id="about">
+      <div class="Descripton">
+        <h1 class="main-heading" style="color: #091e42">
+          I'm Arslan. <br />
+          Glad to see you!
+        </h1>
+        <p class="sub-heading">
+          I am a software developer.I can help u build a product, feature or a
+          website. Look through some of my work and experience! if you like what
+          you see and have a project you need to be coded, dont hesitate to
+          contatct me
+        </p>
+        <p class="lets-connect">Lets Connect</p>
+        <div class="row">
+          <img src="../../assets/GitHub.svg" alt="" />
+          <img src="../../assets/Linkedin.svg" alt="" />
+          <img src="../../assets/Angelist.svg" alt="" />
+          <img src="../../assets/Twitter.svg" alt="" />
+          <img src="../../assets/Medium.svg" alt="" />
         </div>
-    </header>
+      </div>
+    </div>
 
-
-    <section id="Logo">
-        <div class="logo">
-
+    <div class="container1">
+      <div class="card">
+        <img src="../../assets/card-1.png" alt="" class="card-image" />
+        <div class="content">
+          <h2 class="heading">Tonic</h2>
+          <div class="row">
+            <p>CANOPY</p>
+            <div class="dot"></div>
+            <span>Back End Dev</span>
+            <div class="dot"></div>
+            <span>2015</span>
+          </div>
+          <p class="desc">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">css</li>
+            <li class="tag">javaScript</li>
+          </ul>
+          <button class="project-btn">See Project</button>
         </div>
-    </section>
-
-    <div id="portfolio">
-
-        <div class="container">
-            <h1 class="main-heading">
-                I'm Arslan Glad to see you!
-            </h1>
-
+      </div>
+    </div>
+    <div class="container1">
+      <div class="card">
+        <img src="../../assets/card-2.png" alt="" class="card-image" />
+        <div class="content">
+          <h2 class="heading">Multi-Post Stories</h2>
+          <div class="row">
+            <p>FACEBOOK</p>
+            <div class="dot"></div>
+            <span>Back End Dev</span>
+            <div class="dot"></div>
+            <span>2015</span>
+          </div>
+          <p class="desc">
+            Experimental content creation feature that allows users to add to an
+            existing story over the course of a day without spamming their
+            friends.
+          </p>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">Ruby on rails</li>
+            <li class="tag">css</li>
+            <li class="tag">javaScript</li>
+          </ul>
+          <button class="project-btn">See Project</button>
         </div>
-        <div class="Descripton">
-
-            <p2 class="sub-heading">
-                I am a software developer.I can help u build a product, feature or a website. Look through some of
-                my work and experience!
-                if you like what you see and have a project you need to be coded, dont hesitate to contatct me
-            </p2>
-            <p class="lets-connect"> Lets Connect</p>
-            <img src="C:\Users\leoar\Downloads\WhatsApp Image 2023-10-07 at 7.01.55 PM (3).jpeg" alt="social media"
-                width="170px" height="40px">
+      </div>
+    </div>
+    <div class="container1">
+      <div class="card">
+        <img src="../../assets/card-3.png" alt="" class="card-image" />
+        <div class="content">
+          <h2 class="heading">Facebook 360</h2>
+          <div class="row">
+            <p>FACEBOOK</p>
+            <div class="dot"></div>
+            <span>Full Stack Dev</span>
+            <div class="dot"></div>
+            <span>2015</span>
+          </div>
+          <p class="desc">
+            Exploring the future of media in Facebook's first Virtual Reality
+            app; a place to discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">Ruby on rails</li>
+            <li class="tag">css</li>
+            <li class="tag">javaScript</li>
+          </ul>
+          <button class="project-btn">See Project</button>
         </div>
+      </div>
+    </div>
+    <div class="container1">
+      <div class="card">
+        <img src="../../assets/card-4.png" alt="" class="card-image" />
+        <div class="content">
+          <h2 class="heading">Uber Navigation</h2>
+          <div class="row">
+            <p>Uber</p>
+            <div class="dot"></div>
+            <span>Lead Developer</span>
+            <div class="dot"></div>
+            <span>2018</span>
+          </div>
+          <p class="desc">
+            A smart assistant to make driving more safe, efficient, and fun by
+            unlocking your most expensive computer: your car.
+          </p>
+          <ul class="tags">
+            <li class="tag">html</li>
+            <li class="tag">Ruby on rails</li>
+            <li class="tag">css</li>
+            <li class="tag">javaScript</li>
+          </ul>
+          <button class="project-btn">See Project</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
