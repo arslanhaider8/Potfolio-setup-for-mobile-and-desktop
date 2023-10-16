@@ -21,6 +21,8 @@ html {
   
   
   .container {
+    color: var(--theme-1-neutrals-1, #091E42);
+    
     width: 400px;
     text-align: left;
     padding: 20px 140px;
@@ -34,6 +36,7 @@ html {
   
   .Descripton {
     padding: 0px 140px;
+    color: var(--theme-1-neutrals-3, #344563);
   }
   
   
@@ -68,13 +71,14 @@ html {
     .discription {
       flex-direction: row;
       align-items: flex-start;
+      color: var(--theme-1-neutrals-3, #344563);
     }
   
   
   }
   
 
-  
+ 
   
   .portfolio {
   
